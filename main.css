@@ -4,16 +4,34 @@
     
 }
 h1{text-align: center;}
+
 #pe{
     background-color: orange;
-position:  ;}
-#menu:hover {
-   
-    
-    
-    
-}
-#menu { width: 10%;
-padding-bottom: 10%;
+margin-top:90% ;
+display: block;
+padding: 10%;
 }
 
+#menuesc:hover img{
+    display: none;
+}
+#menu { width: 70px;
+padding-bottom: 10%;
+position:absolute;
+display:flex;
+color:black
+}
+#menuesc p{
+    display: none;
+}
+ #menuesc:hover {
+    display: block;
+    background-color: orange;
+    color:black;
+    padding: 100px;
+    }
+
+#menuesc:hover p{
+    display:flex;
+    color:black;
+    }
