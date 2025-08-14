@@ -1,15 +1,16 @@
 #corpo{
     background-color: black;
-    color: white;
+    color: red;
     
 }
 h1{text-align: center;}
 
 #pe{
     background-color: orange;
-margin-top:90% ;
+margin-top:50% ;
 display: block;
-padding: 10%;
+padding: 1%;
+color: black;
 }
 
 #menuesc:hover img{
@@ -18,20 +19,30 @@ padding: 10%;
 #menu { width: 70px;
 padding-bottom: 10%;
 position:absolute;
-display:flex;
 color:black
 }
-#menuesc p{
+#menuesc ul{
     display: none;
 }
  #menuesc:hover {
     display: block;
     background-color: orange;
     color:black;
-    padding: 100px;
+    
     }
 
-#menuesc:hover p{
+#menuesc:hover ul{
     display:flex;
     color:black;
     }
+#links {
+    color: black;
+    display: flex;
+    
+}
+td{
+border: 1px solid white;
+}
+th{
+    border: 1px double cyan;
+}
