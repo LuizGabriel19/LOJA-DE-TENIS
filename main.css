@@ -1,0 +1,48 @@
+#corpo{
+    background-color: black;
+    color: red;
+    
+}
+h1{text-align: center;}
+
+#pe{
+    background-color: orange;
+margin-top:10% ;
+display: block;
+padding: 1%;
+color: black;
+}
+
+#menuesc:hover img{
+    display: none;
+}
+#menu { width: 70px;
+padding-bottom: 10%;
+position:absolute;
+color:black
+}
+#menuesc ul{
+    display: none;
+}
+ #menuesc:hover {
+    display: block;
+    background-color: orange;
+    color:black;
+    
+    }
+
+#menuesc:hover ul{
+    display:flex;
+    color:black;
+    }
+#links {
+    color: black;
+    display: flex;
+    
+}
+td{
+border: 1px solid white;
+}
+th{
+    border: 1px double cyan;
+}
